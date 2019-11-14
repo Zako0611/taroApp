@@ -1,0 +1,30 @@
+.nav-box {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    .top {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+        .img {
+            width: 28Px;
+            height: 28Px;
+            margin-top: 15px;
+        }
+
+        .right {
+            .img {
+                margin-right: 10Px;
+            }
+        }
+
+        .left {
+            .img {
+                margin-left: 10Px;
+            }
+        }
+    }
+}

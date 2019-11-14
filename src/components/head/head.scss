@@ -1,0 +1,36 @@
+.head{
+    .back{
+        width:100% ;
+        height: 150Px;
+        filter: blur(6Px);
+    }
+    .store{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20Px;
+        margin-top: -90Px;
+        .store-img{
+            width:80Px ;
+            height: 80Px;
+            border-radius: 10Px;
+        }
+        .store-text{
+            display: flex;
+            flex-direction: column;
+            font-size: 16Px;
+            margin-left: 10Px;
+            z-index: 2;
+            color: #fff;
+            .tags-text{
+                border: 1Px solid yellow;
+                border-radius: 6Px;
+                padding: 2Px 4Px;
+                font-size: 12px;
+                margin-right: 5Px;
+
+            }
+
+        }
+        
+    }
+}

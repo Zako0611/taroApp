@@ -1,0 +1,23 @@
+.addcut{
+    position: absolute;
+    right: 10Px;
+    bottom: 10Px;
+    .opeate-img{
+        width: 25Px;
+        height: 25Px;
+        margin: 5Px;
+        vertical-align: middle;
+    }
+    .food-num{
+        min-width: 26Px;
+        height: 25Px;
+        line-height: 25Px;
+        font-size: 14Px;
+        display: inline-block;
+        text-align: center;
+        
+    }
+    .hide{
+        display: none;
+    }
+}

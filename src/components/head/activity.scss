@@ -1,0 +1,21 @@
+.activity{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12Px;
+    padding: 0 20Px;
+    margin-top: 10Px;
+    .type{
+        color: #fff;
+        background-color: red;
+        width: 20Px;
+        height: 10Px;
+        border-radius: 2Px;
+        text-align: center;
+        line-height: 20Px;
+        margin-right: 15Px;
+    }
+    .length{
+        color: #ccc;
+    }
+}

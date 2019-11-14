@@ -1,0 +1,29 @@
+.food-list{
+    width: 75%;
+    .foodlist-forlist{
+        display: flex;
+        flex-direction: column;
+        .foodlist-item{
+            display: flex;
+            flex-direction: row;
+            .foodlist-item-img{
+                width: 40%;
+                height: 100Px;
+                flex-grow: 1;
+                margin: 2Px;
+                
+            }
+            .foodlist-item-info{
+                flex-grow: 3;
+                position: relative;
+                font-size: 18Px;
+                display: flex;
+                flex-direction: column;
+                .foodlist-item-info-price{
+                    color: red;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
